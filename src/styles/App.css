@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-color: #333333;
+}
+
+.App {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.App .column {
+  width: 30%;
+}
+
+.droppable-col {
+  margin: 50px auto 0 auto;
+  width: 25%;
+  height: 50%;
+  background-color: #ffffff;
+  padding: 10 10px 0px 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 7px;
+  color: #333333;
+  border: 3px solid #333333;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.add-todo-form-wrapper {
+  margin-top: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-todo-form-wrapper h1 {
+  color: white;
+}
+
+.add-todo-form-wrapper button {
+  padding: 10px;
+  width: 128px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: white;
+  border: 3px solid cyan;
+  border-radius: 10px;
+}
+
+.add-todo-form {
+  outline: 0;
+  margin: 25px auto;
+  padding-left: 10px;
+  width: 256px;
+  height: 32px;
+  border-radius: 10px;
+}
+
+.options {
+  padding: 0 1%;
+}
+
+.edit-todo {
+  padding: 5px;
+  margin-right: 4px;
+  border: 0;
+  background-color: yellow;
+  color: black;
+}
+
+.delete-todo {
+  padding: 5px;
+  margin-left: 4px;
+  border: 0;
+  background-color: red;
+  color: white;
+}
